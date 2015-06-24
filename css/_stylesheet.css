@@ -1,0 +1,248 @@
+/* Main Layout */
+body{
+  background-color:#000;
+  padding: 20px;
+  color: #fff;
+}
+img { border: none; }
+
+hr {
+  border: 0px;
+  border-top: transparent;
+  border-bottom: 2px #222 groove;
+  height:1px;
+  margin-top:2px;
+  margin-bottom:2px;
+}
+
+/* Links */
+a {
+  color: #1c8cf5;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+  font-weight:  normal;
+}
+
+a.white, a.white:visited, a.white:active {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+a.white:hover {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.titlelink{
+  color: #fff;
+  font-size: 12px;
+  line-height:25px;
+  text-decoration: none;
+  font-weight: normal;
+  text-transform:uppercase;
+}
+select {height:22px;}
+
+select:active {
+border: 1px solid #444;
+background-color: #222;
+}
+
+a.titlelink:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+a.category, a.category:visited, a.category:active {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a.category:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+/* Font types */
+h2 {
+  font-size: 14px;
+  color: #ccc;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+small {
+  color: #ccc;
+  font: normal 12px;
+}
+
+.title {
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.title6 {
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.category_big, .category_big a {
+  font-size: 12px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+.category {
+  font-size: 14px;
+  color: #ccc;
+  font-weight: normal;
+}
+
+/* Forms */
+form {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+label{
+  font-size: 12px;
+  color:#999;
+  line-height:20px;
+}
+input, textarea, select {
+  border: 1px solid #222;
+  border-top: 1px #444 solid;
+  background-color: #222;
+  font-size: 11px;
+  color: #FFF;
+  padding:4px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+
+
+textarea{
+  line-height:20px;
+}
+
+input:active, textarea:active, input:focus, textarea:focus, select:focus {
+  border: 1px solid #D60101;
+  background-color: #000000;
+  color: #CCC;
+}
+
+input[type="radio"], input[type="checkbox"], 
+input[type="radio"]:focus, input[type="radio"]:active,
+input[type="checkbox"]:focus, input[type="checkbox"]:active {
+  border: 0px;
+}
+
+input[type="button"],input[type="submit"], button{
+  font-size:12px;
+  text-transform: uppercase;
+  border:0px solid #ff4f01;
+  color:#fff;
+  font-weight: bold;
+  cursor:pointer;
+  background: #0053a1;
+  padding:4px;
+
+}
+input[type="button"]:active,input[type="submit"]:active, button:active,input[type="button"]:focus,input[type="submit"]:focus, button:focus{
+  border:0px #ff969d solid;
+  color:#ccc;
+  padding:4px;
+}
+.input {
+  background-color: transparent;
+  border: none;
+  margin: 2px;
+  padding:4px;
+}
+
+/* Infomessages - Miscellaneous */
+.tooltip {
+  position: absolute;
+  display: none;
+  background-color: #101010;
+  color: #ccc;
+  border: 1px solid #DDDDDD;
+  border-left: 4px solid #dd000;
+  padding: 4px 10px;
+  z-index: 100;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.errorbox {
+  background-color: #FFCCCC;
+  border: 1px dashed #D60000;
+  color: #666666;
+  font-size: 10px;
+  width: 350px;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* BBCode Tags */
+.quote {
+  color: #383838;
+  text-align: left;
+  padding: 6px;
+}
+
+.list {
+	list-style-type: disc;
+	list-style-position:outside;
+}
+.list_num {
+	list-style-type: decimal;
+	list-style-position:outside;
+}
+
+.list_alpha {
+	list-style-type: lower-latin;
+	list-style-position:outside;
+}
+
+.code {
+  color: #fff;
+  text-align: left;
+  margin: 0 auto;
+  padding: 3px;
+  font: normal 10px;
+}
+
+.codeinner {
+  color: #fff;
+  font: 11px 'Courier New', Courier, monospace;
+}
+
+.codeline0 {
+	background-color: #111;
+	height: 15px;
+	padding-left: 3px;
+	white-space: nowrap;
+}
+
+.codeline1 {
+	background-color: #111;
+
+	height: 15px;
+	padding-left: 3px;
+	white-space: nowrap;
+}

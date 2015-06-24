@@ -1,0 +1,51 @@
+@charset "utf-8";
+body {
+	font: 80%/1.4 Arial, Helvetica, sans-serif;
+	background: url(../images/bg.jpg) top center fixed no-repeat #000;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+.header {
+	width:1007px;
+	margin:0 auto; 
+}
+.container {
+	width: 1007px;
+	background: url(../images/mainbg_17.png) repeat-y;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+.slider {
+	width:1007px;
+	height:280px;
+	margin:0 auto;
+}
+.sidebar1 {
+	float: right;
+	width: 336px;
+	background:url(../images/rightbg_25.png) repeat-y;
+}
+.content {
+	width: 671px;
+	float: right;
+	background:url(../images/leftbg_25.png) repeat-y;
+}
+#fullforum {
+	width:980px;
+	margin:0 auto;
+	padding:10px;
+	background:#111;
+	border:2px solid #181818;
+	min-height:500px;
+}
+.footer {
+	width:1007px;
+	margin:0 auto;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+}
